@@ -4,19 +4,22 @@
 //𝙰𝙳𝙾𝙿𝚃𝙴𝙳 𝙵𝚁𝙾𝙼  𝚂𝙲𝚁𝙸𝙿𝚃 𝙾𝙵 𝙲𝙷𝙴𝙴𝙼𝚂𝙱𝙾𝚃 𝚅2 𝙱𝚈 𝙳𝙶𝚇𝚎𝚘𝚗 
 //
 //════════════════════════════//
-
-require('./lib/config.js')
 const fs = require('fs')
 const chalk = require('chalk')
-const { ownername, botname, footer, ig, region, myweb, packname, author, sessionName, prefa, sp, mess, APIs, YOUR_API_KEY } = require('./lib/config.js')
+const { ownername, botname, footer, ig, region, myweb, packname, author, sessionName, prefa, sp, mess, APIs, YOUR_API_KEY, sc } = require('./lib/config.js')
 
-//Api Key\\
-global.APIKeys = {'https://zenzapis.xyz': YOUR_API_KEY } //credit goes to sanzy yt, if api key expire, buy it and put it here?\\ https://zenzapis.xyz
+
+
+
+
 //customize settings\\
+global.APIKeys = {'https://zenzapis.xyz': YOUR_API_KEY } //credit goes to sanzy yt, if api key expire, buy it and put it here?\\ https://zenzapis.xyz
 global.owner = ['94761539856'] // Add Your number Eg: ['94761539856', 'YOUR NUMBER']
 global.premium = ['94761539856'] // Add Your number Eg: ['94761539856', 'YOUR NUMBER']
 global.ownernomer = '94761539856' // Add Your number Eg: ['YOUR NUMBER']
-global.sc = 'https://github.com/AiDarkEzio/Whats-Bot-MD_V-3.git' // AiDarkEzio to change your github name
+// we got your name in your whatsapp
+
+
 
 
 
@@ -34,6 +37,7 @@ global.sessionName = sessionName
 global.prefa = prefa 
 global.sp = sp
 global.mess = mess
+global.sc = sc
 
 global.limitawal = {
     premium: "Infinity",
