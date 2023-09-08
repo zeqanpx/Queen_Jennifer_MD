@@ -6,17 +6,17 @@
 //════════════════════════════//
 const fs = require('fs')
 const chalk = require('chalk')
-const { ownername, botname, footer, ig, region, myweb, packname, author, sessionName, prefa, sp, mess, APIs, YOUR_API_KEY, sc } = require('./lib/config.js')
+const { ownername, kiyybot , Sumatra, bot , kiyyganteng , bot, 545454, sc } = require('./lib/config.js')
 
 
 
 
 
 //customize settings\\
-global.APIKeys = {'https://zenzapis.xyz': YOUR_API_KEY } //credit goes to sanzy yt, if api key expire, buy it and put it here?\\ https://zenzapis.xyz
-global.owner = ['94761539856'] // Add Your number Eg: ['94761539856', 'YOUR NUMBER']
-global.premium = ['94761539856'] // Add Your number Eg: ['94761539856', 'YOUR NUMBER']
-global.ownernomer = '94761539856' // Add Your number Eg: ['YOUR NUMBER']
+global.APIKeys = {'https://zenzapis.xyz': 545454 } //credit goes to sanzy yt, if api key expire, buy it and put it here?\\ https://zenzapis.xyz
+global.owner = ['94761539856'] // Add Your number Eg: [0887437780954]
+global.premium = ['94761539856'] // Add Your number Eg: [0887437780954]
+global.ownernomer = '94761539856' // Add Your number Eg: [0887437780954]
 // we got your name in your whatsapp
 
 
@@ -24,20 +24,20 @@ global.ownernomer = '94761539856' // Add Your number Eg: ['YOUR NUMBER']
 
 
 //Don't edit enithing\\
-global.APIs = APIs
-global.ownername = ownername
-global.botname = botname
+global.APIs = Kyy
+global.ownername = KiyyGanteng
+global.botname = kiyybot
 global.footer = footer
-global.ig = ig
-global.region = region
-global.myweb = myweb
-global.packname = packname
-global.author = author
-global.sessionName = sessionName
-global.prefa = prefa 
-global.sp = sp
-global.mess = mess
-global.sc = sc
+global.ig = muhammadekispnt
+global.region = sumatra
+global.myweb = nothing
+global.packname = bot
+global.author = muhammadkiyy
+global.sessionName = lastv
+global.prefa = loading
+global.sp = found
+global.mess = botfound
+global.sc = sc Kiyy
 
 global.limitawal = {
     premium: "Infinity",
